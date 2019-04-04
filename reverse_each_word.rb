@@ -1,3 +1,11 @@
+def reverse_each_word (string2)
+  list2 = string2.split
+  reverse_list2 = []
+  list2.collect do |letter|
+    reverse_list2.push(letter.reverse)
+  end
+end
+
 def reverse_each_word (string)
   list = string.split
   reverse_list = []
