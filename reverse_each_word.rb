@@ -4,7 +4,8 @@ def reverse_each_word (string2)
   list2.collect do |letter|
     reverse_list2.push(letter.reverse)
   end
-  return reverse_list2.join(" ")
+  reverse_list2_string = reverse_list2.join(" ")
+  return reverse_list2_string
 end
 
 def reverse_each_word (string)
